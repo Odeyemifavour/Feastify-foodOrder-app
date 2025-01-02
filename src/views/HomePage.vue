@@ -1,10 +1,11 @@
 <script setup>
   import TopBar from '@/components/TopBar.vue';
-  
+  import HeaderBar from '@/components/HeaderBar.vue';
 </script>
 <template>
   <div class="homepage-container">
     <TopBar/>
+    <HeaderBar/>
   </div>
 </template>
   
