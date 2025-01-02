@@ -2,6 +2,7 @@
   import TopBar from '@/components/TopBar.vue';
   import HeaderBar from '@/components/HeaderBar.vue';
   import { ref } from 'vue';
+  import BrowseMenu from '@/components/BrowseMenu.vue';
   const heroBackground = ref('background');
 
 </script>
@@ -19,6 +20,7 @@
         </section>
       </div>
     </div>
+    <BrowseMenu/>
   </div>
 </template>
   
