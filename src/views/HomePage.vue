@@ -1,16 +1,26 @@
-
+<script setup>
+  import TopBar from '@/components/TopBar.vue';
+  
+</script>
 <template>
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the root of your application.</p>
-    </div>
-  </template>
+  <div class="homepage-container">
+    <TopBar/>
+  </div>
+</template>
   
-  <script setup>
-  
-  </script>
-  
-  <style scoped>
-  
+  <style >
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+  }
+
   </style>
-  
+  <style scoped>
+    .homepage-container
+    {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
