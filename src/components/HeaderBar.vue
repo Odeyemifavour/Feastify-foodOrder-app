@@ -31,6 +31,7 @@ const activeMenu = ref('active');
         align-items: center;
         width:100%;
         color:#2C2F24;
+        margin: 5px 0;
     }
     .bold
     {
@@ -79,6 +80,9 @@ const activeMenu = ref('active');
             width: 100px;
             border-radius: 30px;
             padding: 10px 0;
+            cursor: pointer;
+            text-transform: capitalize;
+            font-size: 13px;
         }
     }
 </style>
