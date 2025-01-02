@@ -1,8 +1,10 @@
 <script setup>
+  import { ref } from 'vue';
   import TopBar from '@/components/TopBar.vue';
   import HeaderBar from '@/components/HeaderBar.vue';
-  import { ref } from 'vue';
   import BrowseMenu from '@/components/BrowseMenu.vue';
+  import AboutCard from '@/components/AboutCard.vue';
+
   const heroBackground = ref('background');
 
 </script>
@@ -21,6 +23,9 @@
       </div>
     </div>
     <BrowseMenu/>
+    <div class="about-container">
+      <AboutCard/>
+    </div>
   </div>
 </template>
   
@@ -105,4 +110,9 @@
         background: transparent;
         border: 2px solid #2C2F24;
       } 
+      .about-container
+      {
+        background-color: #F9F9F7;
+        padding: 30px 0;
+      }
   </style>
