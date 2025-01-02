@@ -4,6 +4,7 @@
   import HeaderBar from '@/components/HeaderBar.vue';
   import BrowseMenu from '@/components/BrowseMenu.vue';
   import AboutCard from '@/components/AboutCard.vue';
+  import UniqueServices from '@/components/UniqueServices.vue';
 
   const heroBackground = ref('background');
 
@@ -11,7 +12,9 @@
 <template>
   <div class="homepage-container">
     <TopBar/>
+
     <HeaderBar/>
+
     <div v-bind:class="heroBackground" >
       <div class="hero-content">
         <h1>Best food for your taste</h1>
@@ -22,9 +25,15 @@
         </section>
       </div>
     </div>
+
     <BrowseMenu/>
+
     <div class="about-container">
       <AboutCard/>
+    </div>
+
+    <div class="unique-services">
+      <UniqueServices/>
     </div>
   </div>
 </template>
@@ -113,6 +122,11 @@
       .about-container
       {
         background-color: #F9F9F7;
+        padding: 30px 0;
+      }
+      .unique-services
+      {
+        background-color: #ffffff;
         padding: 30px 0;
       }
   </style>

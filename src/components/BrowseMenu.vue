@@ -12,7 +12,7 @@ const menuOptions = ref([
 
 <template>
     <div>
-        <h2>Browse our Menu</h2>
+        <h1>Browse our Menu</h1>
         <section>
             <figure v-for="menu in menuOptions"> 
                 <img :src="menu.url" :alt="menu.altText">
@@ -74,6 +74,9 @@ img
     height: 50px;
     margin: 40px 0;
 }
+
+</style>
+<style>
 figcaption
 {
     margin: 10px 0;
