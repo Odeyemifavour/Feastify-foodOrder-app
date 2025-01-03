@@ -30,6 +30,8 @@ import { ref } from 'vue';
 {
     margin: 40px;
     color:#2C2F24;
+    width: 80%;
+    margin: auto;
 }
 h1
 {
@@ -42,9 +44,12 @@ section
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 img
 {
     border-radius: 20px;
+    width: 250px;
+    height: 250px;
 }
 </style>

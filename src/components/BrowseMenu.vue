@@ -2,10 +2,30 @@
 import { ref } from 'vue';
 
 const menuOptions = ref([
-    {name:'Breakfast', url:'/tea 1.png', description:'In the new era of technology we look in the future with certainty and pride for our life.', altText:'breakfast'},
-    {name:'Main Dishes', url:'/Vector (9).png', description:'In the new era of technology we look in the future with certainty and pride for our life.', altText:'maindishes'},
-    {name:'Drinks', url:'/Vector (8).png', description:'In the new era of technology we look in the future with certainty and pride for our life.',altText:'drink'},
-    {name:'Desert', url:'/Group (2).png', description:'In the new era of technology we look in the future with certainty and pride for our life.', altText:'desert'},
+    {
+        name:'Breakfast',
+        url:'/tea 1.png',
+        description:'In the new era of technology we look in the future with certainty and pride for our life.', 
+        altText:'breakfast'
+    },
+    {
+        name:'Main Dishes', 
+        url:'/Vector (9).png', 
+        description:'In the new era of technology we look in the future with certainty and pride for our life.', 
+        altText:'maindishes'
+    },
+    {
+        name:'Drinks', 
+        url:'/Vector (8).png', 
+        description:'In the new era of technology we look in the future with certainty and pride for our life.',
+        altText:'drink'
+    },
+    {
+        name:'Desert', 
+        url:'/Group (2).png', 
+        description:'In the new era of technology we look in the future with certainty and pride for our life.', 
+        altText:'desert'
+    },
 ])
 
 </script>
